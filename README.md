@@ -1,6 +1,6 @@
-# PicPay Simplificado - Desafio Backend
+# simplifiedpayment - Desafio Backend
 
-Este é um projeto de exemplo para o desafio técnico do PicPay Simplificado, uma plataforma de pagamentos simplificada. O projeto é uma aplicação backend que permite depósitos e transferências de dinheiro entre usuários e lojistas.
+Este é um projeto de exemplo para o desafio técnico do PicPay, uma plataforma de pagamentos simplificada. O projeto é uma aplicação backend que permite depósitos e transferências de dinheiro entre usuários e lojistas.
 
 ## Tecnologias Utilizadas
 
@@ -22,7 +22,7 @@ Este é um projeto de exemplo para o desafio técnico do PicPay Simplificado, um
 
 O projeto está estruturado da seguinte forma:
 
-- `src/main/java/com/example/picpaysimplificado`: Contém os pacotes Java do projeto
+- `src/main/java/com/example/simplifiedpayment`: Contém os pacotes Java do projeto
   - `controller`: Controladores REST para gerenciar as requisições HTTP
   - `service`: Serviços para implementar a lógica de negócio
   - `repository`: Repositórios Spring Data JPA para acesso ao banco de dados
@@ -36,12 +36,12 @@ Certifique-se de ter o Java e o Maven instalados. Para executar a aplicação:
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/picpay-simplificado.git
+   git clone https://github.com/seu-usuario/simplifiedpayment.git
 
    Navegue até o diretório do projeto:
   ```bash
 
-cd picpay-simplificado
+cd simplifiedpayment
 Execute a aplicação usando Maven:
   ```bash
 
