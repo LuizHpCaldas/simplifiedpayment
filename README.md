@@ -39,12 +39,12 @@ Certifique-se de ter o Java e o Maven instalados. Para executar a aplicação:
    git clone https://github.com/seu-usuario/picpay-simplificado.git
 
    Navegue até o diretório do projeto:
-bash
-Copy code
+  ```bash
+
 cd picpay-simplificado
 Execute a aplicação usando Maven:
-bash
-Copy code
+  ```bash
+
 mvn spring-boot:run
 A aplicação estará disponível em http://localhost:8080.
 
@@ -67,8 +67,8 @@ payee: ID do usuário ou lojista que irá receber o pagamento
 Testes
 O projeto inclui testes unitários para os serviços de transferência. Para executar os testes:
 
-bash
-Copy code
+```bash
+
 mvn test
 Melhorias Futuras
 Implementar autenticação e segurança para proteger as operações
